@@ -1,0 +1,14 @@
+{
+  "name": "ferwaba",
+  "version": "1.0.13",
+  "description": "List of Ferwaba teams and players",
+  "main": "ferwaba.js",
+  "scripts": {
+    "test": "npm ferwaba"
+  },
+  "keywords": [
+    "ferwaba"
+  ],
+  "author": "Rugamba Cedric",
+  "license": "ISC"
+}
