@@ -1,6 +1,6 @@
 {
   "name": "ferwaba",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "List of Ferwaba teams and players",
   "main": "ferwaba.js",
   "scripts": {
@@ -14,7 +14,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cdou2391/Ferwaba-NPM.git"
-  },"bugs": {
+  },
+  "bugs": {
     "url": "https://github.com/cdou2391/Ferwaba-NPM/issues"
   }
 }
