@@ -297,3 +297,8 @@ const allTeams=[
   exports.getAllTeams = () => {
     return allTeams;
   }
+  exports.getTeamInfo = (teamName)=>{
+    const getTeamName=allTeams.filter(team=> (team.name===teamName));
+    return getTeamName;
+  }
+
