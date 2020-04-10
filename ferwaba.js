@@ -281,7 +281,7 @@ const allTeams=[
       if(getPlayer!=''){
         return getPlayer;
       }
-      else if(getPlayer==='')
+      else if(getPlayer=='')
       {
         getPlayer=allPlayers.filter(player=> (player.surname===playerName));
         if(getPlayer!=''){
