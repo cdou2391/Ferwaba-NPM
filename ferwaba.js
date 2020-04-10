@@ -277,19 +277,19 @@ const allTeams=[
   }
   exports.getPlayerInfo = (playerName)=>{
 
-      const getPlayer=allPlayers.filter(player=> (player.name===playerName));
+      const getPlayerName=allPlayers.filter(player=> (player.name===playerName));
       if(getPlayer!=''){
-        return getPlayer;
+        return getPlayerName;
       }
       else if(getPlayer=='')
       {
-        getPlayer=allPlayers.filter(player=> (player.surname===playerName));
+        const getPlayerSurname=allPlayers.filter(player=> (player.surname===playerName));
         if(getPlayer!=''){
-          return getPlayer;
+          return getPlayerSurname;
         }
         else{
-          getPlayer=allPlayers.filter(player=> (player.middlename===playerName));
-          return getPlayer;
+          const getPlayerMiddlename=allPlayers.filter(player=> (player.middlename===playerName));
+          return getPlayerMiddlename;
         }
       }
       
