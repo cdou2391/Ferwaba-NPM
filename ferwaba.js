@@ -235,7 +235,7 @@ const allTeams=[
     new Player('NDAHAYO','REMY','','#199'),
     new Player('NDONG','BIBANG','RMAULD JEFFREY','#200'),
     new Player('MUHIRE','ROBERT','','#201'),
-    new Player('Cedric','RUTAZIGWA','GITORI','#202'),
+    new Player('RUTAZIGWA','Cedric','GITORI','#202'),
     new Player('NTWARI','Ryan','','#203'),
     new Player('KWIZERA','SACRÉ','','#204'),
     new Player('AMISI','SAIDI','','#205'),
@@ -276,8 +276,23 @@ const allTeams=[
     return allPlayers;
   }
   exports.getPlayerInfo = (playerName)=>{
+
       const getPlayer=allPlayers.filter(player=> (player.name===playerName));
-      return getPlayer;
+      if(getPlayer!=''){
+        return getPlayer;
+      }
+      else if(getPlayer==='')
+      {
+        getPlayer=allPlayers.filter(player=> (player.surname===playerName));
+        if(getPlayer!=''){
+          return getPlayer;
+        }
+        else{
+          getPlayer=allPlayers.filter(player=> (player.middlename===playerName));
+          return getPlayer;
+        }
+      }
+      
   }
   exports.getAllTeams = () => {
     return allTeams;
