@@ -278,13 +278,13 @@ const allTeams=[
   exports.getPlayerInfo = (playerName)=>{
 
       const getPlayerName=allPlayers.filter(player=> (player.name===playerName));
-      if(getPlayer!=''){
+      if(getPlayerName!=''){
         return getPlayerName;
       }
-      else if(getPlayer=='')
+      else if(getPlayerName=='')
       {
         const getPlayerSurname=allPlayers.filter(player=> (player.surname===playerName));
-        if(getPlayer!=''){
+        if(getPlayerSurname!=''){
           return getPlayerSurname;
         }
         else{
