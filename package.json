@@ -1,6 +1,6 @@
 {
   "name": "ferwaba",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "List of Ferwaba teams and players",
   "main": "ferwaba.js",
   "scripts": {
