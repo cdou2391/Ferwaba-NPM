@@ -10,5 +10,11 @@
     "ferwaba"
   ],
   "author": "Rugamba Cedric",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdou2391/Ferwaba-NPM.git"
+  },"bugs": {
+    "url": "https://github.com/cdou2391/Ferwaba-NPM/issues"
+  }
 }
